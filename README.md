@@ -45,7 +45,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/html/html_elements.asp) - This helped me to choose the elements.
+- [w3schools](https://www.w3schools.com/html/html_elements.asp) - This helped me with html elements and css styling.
 
 ## Author
 
