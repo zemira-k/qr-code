@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -14,32 +13,30 @@
 
     <title>Frontend Mentor | QR code component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       body {
         background-color: hsl(212, 45%, 89%);
+        font-family: Outfit, sans-serif;
+        text-align: center;
+        margin: auto;
       }
 
       .container {
         padding-bottom: 50px;
-        border-radius: 3%;
-        font-family: Outfit, sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        max-width: 1440px;
-        background-color: hsl(0, 0%, 100%);
-        width: 40%;
         margin: auto;
         margin-top: 10%;
         margin-bottom: 10%;
+        width: 600px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: hsl(0, 0%, 100%);
       }
       .image {
-        border-radius: 3%;
-        width: 90%;
         margin: 30px;
-        box-sizing: border-box;
+        width: 90%;
+        border-radius: 30px;
       }
       .header {
         font-weight: 700;
@@ -54,10 +51,20 @@
       }
       .attribution {
         font-size: 11px;
-        text-align: center;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
+      }
+      @media screen and (max-width: 500px) {
+        .container {
+          width: 90%;
+        }
+        .header {
+          font-size: 20px;
+        }
+        .text {
+          font-size: 15px;
+        }
       }
     </style>
   </head>
